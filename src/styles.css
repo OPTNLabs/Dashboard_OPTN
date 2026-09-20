@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "@xyflow/react/dist/style.css";
+
+@theme {
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --color-bg: #080b10;
+  --color-surface: #10151c;
+  --color-surface-2: #161d27;
+  --color-surface-3: #1c2531;
+  --color-fg: #e7eef6;
+  --color-muted: #8b9aab;
+  --color-subtle: #6d7c8d;
+  --color-border: #243041;
+  --color-border-strong: #334155;
+  --color-accent: #4aa3e8;
+  --color-accent-fg: #071018;
+  --color-pass: #3ecf8e;
+  --color-warn: #e0b044;
+  --color-fail: #e15d5d;
+  --color-chipnet: #4aa3e8;
+  --color-mainnet: #e15d5d;
+  --color-demo: #e0b044;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+.optn-grid {
+  background-image:
+    linear-gradient(to right, rgb(36 48 65 / 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(36 48 65 / 0.35) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.react-flow__node {
+  font-family: var(--font-sans);
+}
+
+[data-tour-active="true"] {
+  position: relative;
+  z-index: 40;
+  outline: 2px solid var(--color-accent);
+  outline-offset: 5px;
+  box-shadow: 0 0 0 8px rgb(74 163 232 / 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
