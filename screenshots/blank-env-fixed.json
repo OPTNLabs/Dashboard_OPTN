@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8083/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OPTN Dashboard",
+      "hasCanvas": false,
+      "bodyTextLen": 1136,
+      "bodyTextHash": "677687ea6cf90bd4d32e56441c829a3624339bd726543aa9c9a17a621196b6f7",
+      "bodyTextPrefix": "OPTN Control Plane Overview Wallet Vaults Plans Studio Proposals",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/home/lightswarm/projects/Dashboard_OPTN/screenshots/blank-env-fixed.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OPTN Dashboard",
+      "hasCanvas": false,
+      "bodyTextLen": 1050,
+      "bodyTextHash": "60c278c14178a020c2d2d1322661e2c977dbef61707222cc955a1fb210048194",
+      "bodyTextPrefix": "OPTN CHIPNET LIVE CHIPNET Walkthrough Connect Overview Wallet Va",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/home/lightswarm/projects/Dashboard_OPTN/screenshots/blank-env-fixed-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/home/lightswarm/projects/Dashboard_OPTN/screenshots/blank-env-fixed.json"
+}

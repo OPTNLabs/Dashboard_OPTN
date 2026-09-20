@@ -1,0 +1,36 @@
+{
+  "id": "bounded-release-v1",
+  "protocol": "bch",
+  "network": "chipnet",
+  "name": "BoundedReleaseVault",
+  "version": "1.0.0",
+  "compiler": { "library": "@bitauth/libauth", "version": "3.0.0" },
+  "reviewed": true,
+  "reviewStatus": "reviewed",
+  "liveSpendEnabled": true,
+  "onChainRecipientEnforced": true,
+  "lockingType": "p2sh32",
+  "onChain": [
+    "operator signature",
+    "exactly one input",
+    "exactly two outputs",
+    "output 0 equals the reviewed destination lock",
+    "output 1 retains the covenant lock",
+    "payment at or below the compiled cap",
+    "fee at or below the compiled cap"
+  ],
+  "notOnChain": [
+    "2-of-3 approval",
+    "session allowance",
+    "daily window",
+    "plan governance",
+    "recovery authority",
+    "token state"
+  ],
+  "notes": [
+    "P2SH32 wrapper around a CashAssembly redeem script.",
+    "Canonical bytecode and constructor hash live in the artifact registry, not this display file.",
+    "A changed redeem script requires a newly funded vault instance.",
+    "Replaces the unreviewed TreasuryVault fixture that declared recipientPkh without checking output 0."
+  ]
+}

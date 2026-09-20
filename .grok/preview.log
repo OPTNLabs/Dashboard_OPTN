@@ -1,0 +1,204 @@
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/18/2026, 7:26:42 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+[db] PGLite bootstrap failed: Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:113:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:113:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/18/2026, 7:28:53 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+Error: aborted
+    at abortIncoming (node:_http_server:838:17)
+    ... 3 lines matching cause stack trace ...
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+  cause: Error: aborted
+      at abortIncoming (node:_http_server:838:17)
+      at socketOnClose (node:_http_server:832:3)
+      at Socket.emit (node:events:531:35)
+      at TCP.<anonymous> (node:net:347:12)
+      at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'ECONNRESET'
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/18/2026, 8:10:39 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/18/2026, 9:39:17 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+
+ ╭─────────────── [Environment Variables] ─────────────────╮
+ │                                                         │
+ │  Loaded variables from .env files (preview mode only).  │
+ │  Set platform environment variables for production:     │
+ │   - APP_NETWORK                                         │
+ │   - CHIPNET_DEV_MNEMONIC                                │
+ │   - ENABLE_MAINNET                                      │
+ │   - OPTN_ORIGIN_ALLOWLIST                               │
+ │   - SESSION_SECRET                                      │
+ │   - VITE_AUTH_ENABLED                                   │
+ │   - VITE_WALLETCONNECT_METADATA_URL                     │
+ │   - VITE_WALLETCONNECT_PROJECT_ID                       │
+ │   - WALLETCONNECT_PROJECT_ID                            │
+ │                                                         │
+ ╰─────────────────────────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/18/2026, 9:41:07 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+
+ ╭─────────────── [Environment Variables] ─────────────────╮
+ │                                                         │
+ │  Loaded variables from .env files (preview mode only).  │
+ │  Set platform environment variables for production:     │
+ │   - APP_NETWORK                                         │
+ │   - CHIPNET_DEV_MNEMONIC                                │
+ │   - ENABLE_MAINNET                                      │
+ │   - OPTN_ORIGIN_ALLOWLIST                               │
+ │   - SESSION_SECRET                                      │
+ │   - VITE_AUTH_ENABLED                                   │
+ │   - VITE_WALLETCONNECT_METADATA_URL                     │
+ │   - VITE_WALLETCONNECT_PROJECT_ID                       │
+ │   - WALLETCONNECT_PROJECT_ID                            │
+ │                                                         │
+ ╰─────────────────────────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/18/2026, 9:52:38 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+
+ ╭─────────────── [Environment Variables] ─────────────────╮
+ │                                                         │
+ │  Loaded variables from .env files (preview mode only).  │
+ │  Set platform environment variables for production:     │
+ │   - APP_NETWORK                                         │
+ │   - CHIPNET_BROADCAST_URL                               │
+ │   - CHIPNET_DEV_MNEMONIC                                │
+ │   - CHIPNET_INDEXER_URL                                 │
+ │   - ENABLE_MAINNET                                      │
+ │   - OPTN_ORIGIN_ALLOWLIST                               │
+ │   - SESSION_SECRET                                      │
+ │   - VITE_AUTH_ENABLED                                   │
+ │   - VITE_WALLETCONNECT_METADATA_URL                     │
+ │   - VITE_WALLETCONNECT_PROJECT_ID                       │
+ │   - WALLETCONNECT_PROJECT_ID                            │
+ │                                                         │
+ ╰─────────────────────────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+Error: aborted
+    at abortIncoming (node:_http_server:845:17)
+    ... 2 lines matching cause stack trace ...
+    at TCP.<anonymous> (node:net:346:12) {
+  cause: Error: aborted
+      at abortIncoming (node:_http_server:845:17)
+      at socketOnClose (node:_http_server:839:3)
+      at Socket.emit (node:events:520:35)
+      at TCP.<anonymous> (node:net:346:12) {
+    code: 'ECONNRESET'
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}

@@ -1,0 +1,8 @@
+node_modules
+
+# Local configuration and secrets. Commit only the checked-in examples.
+.env
+.env.*
+!.env.example
+!.env.development.example
+!.env.production.example
